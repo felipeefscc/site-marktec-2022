@@ -1,0 +1,269 @@
+.body{
+    margin: auto;
+}
+
+button .svelte-19dp4zf{
+    width: 50px;
+    height: 100px;
+}
+
+.menu-principal{
+    font-size: 14px;    
+}
+
+.menu-icons{
+    font-size: 20px;
+}
+
+.logotopo{
+    margin-left: 70px;
+    position: relative;
+}
+
+.planos-geral{
+    background-color: #5eddc8;
+    width: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+}   
+
+.planos-fibra{
+    margin: 5vh auto;
+    max-width: 900px;
+    position: relative;    
+}
+
+.planos-geral h1{
+    font-size: 50px;
+    margin-top: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.planos-geral p{
+    font-weight: 700;
+    color: #fff;
+}
+
+.planos-geral strong{
+    color: #f4972f;
+}
+
+.planos-gpon{
+    display: flex;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.infoplanos{
+    background-color: #5eddc8;
+    margin-top: 23rem;
+    padding: 4rem 12rem;
+    color: white;
+}
+
+.descplanos{
+    color: #000000;
+    font-size: 15px;
+}
+
+.descplanos a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.infoplanos a{
+    margin-top: 1rem;
+}
+
+.descplanos{
+    margin: 5vh auto;
+    max-width: 900px;
+    text-align: start;
+    margin-top: 2.5rem;
+    font-size: 10px;    
+}
+
+.viabilidademap{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.viabilidademap h1{
+    font-size: 50px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.viabilidademap strong{
+    color: #f4972f;
+}
+
+.viabilidademap p{
+    font-size: 30px;
+}
+
+.bairrossize{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.copy{
+    font-size: px;
+}
+
+.pln-vl{
+    width: auto;
+    max-height: 300px;
+}
+
+.nav-link{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #f4972f;
+    font-size: 13.5px;
+}
+
+.navbar-nav:hover{
+    color: #f4972f;
+}
+
+.iconestop{
+    font-size: 20px;
+}
+
+.iconestop:hover{
+    
+    color: #f4972f;
+}
+
+.back-to-top {
+    background-color: #38322e;
+    border-radius: 65px;
+    bottom: 14px;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: #d9a000;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 22px;
+    width: 40px;
+    z-index: 3;
+}
+
+.back-to-top::after {
+      content: '▲';
+      display: flex;
+      justify-content: center;
+      padding-left: 1px;
+      padding-top: 10px;
+}
+  
+
+
+
+@media screen and (max-width: 900px){
+        .planos-geral h1{
+            font-size: 25px;
+        }
+
+        .planos-fibra{
+            margin-top: 50px;
+            margin: 1vh auto;
+            position: relative; 
+            margin-left: 25%;   
+        }
+
+        .planos-geral p{
+            font-size: 15px;
+        }
+
+        .planos-gpon img {
+            width: 60px;
+            margin-top: -30px;
+        }
+
+        .infoplanos{
+            margin-top: 0px;
+            height: 300px;           
+        }
+
+        .descplanos a{
+              display: none;              
+        }
+
+        .viabilidademap{
+            margin-bottom: 2rem;
+        }
+
+        .viabilidademap h1{
+            font-size: 25px;
+        }
+
+        .viabilidademap p{
+            font-size: 20px;
+        }
+
+        .viabilidademap img{
+            width: 400px;
+        }
+
+        .viabilidademap h6{
+            font-size: 10px;
+        }
+
+        .bairrossize{
+            font-size: 10px;
+        }
+
+        .colorbg{
+            margin-top: 10px;
+        }
+
+}
+
+@media screen and (max-width: 500px){
+    .planos-geral{
+        height: 230px;
+        margin-bottom: 5px;
+    }
+    
+    .planos-geral h1{
+        font-size: 25px;
+    }
+
+    .planos-geral p{
+        font-size: 12px;
+    }
+
+    .planos-gpon img {
+        width: 50px;
+        left: 50px;
+    }
+   
+    .planos-fibra{
+        margin-top: 50px;
+        margin: 1vh auto;
+        position: relative; 
+        margin-left: 7%;   
+    }
+
+    .infoplanos{
+        display: none;
+    
+}
+
+}
